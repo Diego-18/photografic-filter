@@ -1,0 +1,49 @@
+.img{
+	height: 200px;
+}
+
+.encabezado{
+	font-family: "Mystery Quest", cursive;
+    background: #abcdef;
+    box-shadow: 1px 0px 1px 0px rgba(0,0,0,0.8);
+    color: #000;
+    font-size: 200%;
+    padding: 2%;
+    text-align: center;
+    text-shadow:1px 1px 0px rgba(0,0,0,0.8);
+}
+
+
+.footer{
+	font-family: "Mystery Quest", cursive;
+    background: #abcdef;
+    color: #000;
+    font-size: 150%;
+    text-align: center;
+    text-shadow:1px 1px 0px rgba(0,0,0,0.8);
+	/* margin-top: 5%; */
+	/* padding: 2%; */
+}
+
+.container{
+	margin: 1%;
+	padding: 1%;
+	margin-right: 1%;
+}
+
+.row-cstm {
+    margin-left: 1%;
+	margin-right: 1%;
+}
+
+.twitter-log{
+	color: #00aced;
+}
+
+.instgram-log{
+	color: #125688;
+}
+
+.github-log{
+	color: #000;
+}
