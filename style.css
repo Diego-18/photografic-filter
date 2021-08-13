@@ -69,10 +69,8 @@ nav{
     flex-flow: row;
 
 	width: 70%;
-	/* padding: 15% 0%; */
 	text-align: center;
 	justify-content: center;
-	/* flex-grow: 0.5; */
 }
 
 #item__origin{
@@ -174,18 +172,6 @@ nav{
 }
 
 @media screen and (min-width: 950px){
-	.cont__demo{
-		/* padding: 15% 0%; */
-	}
-
-	/* .container{
-		margin: 2%;
-	} */
-
-	/* .container__ppal{
-		padding: 2%;
-	} */
-
 	.img__origin, #img__demo{
 		margin: 50% 0%;
 	}
@@ -206,7 +192,6 @@ nav{
 
 	.cont__demo {
 		width: 100%;
-		/* padding: 15% 0%; */
 	}
 
 	.cont__items {
@@ -226,8 +211,5 @@ nav{
 	.items__option{
 		padding: 2% 10%;
     	margin: 0% 3%;
-	}
-
-
-	
+	}	
 }
