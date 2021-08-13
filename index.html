@@ -1,117 +1,69 @@
 <!DOCTYPE html>
 <html lang="es">
 	<head>
-        <meta charset="UTF-8">
+        <meta charset="UTF-8">        
         <meta autor="Diego Chavez">
         <meta descripcion="Photographic Filters">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Photographic Filters</title>
-		<link rel="stylesheet" type="text/css" href="public/css/style.css">
-        <link rel="stylesheet" type="text/css" href="dist/sty_PhotographicFilters.css">
-        <link rel="stylesheet" type="text/css" href="lib/bootstrap3/dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.0/css/font-awesome.css" integrity="sha512-CB+XYxRC7cXZqO/8cP3V+ve2+6g6ynOnvJD6p4E4y3+wwkScH9qEOla+BTHzcwB4xKgvWn816Iv0io5l3rAOBA==" crossorigin="anonymous" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mystery+Quest">
-    </head>
+        <link rel="stylesheet" href="dist/PhotographicFilters.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+        
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+	</head>
 
 	<body>
-        <nav class="encabezado">PHOTOGRAFIC FILTERS</nav>
-        <div class="container">
-            <div class="row-cstm">             
-                <div class="widget_area">
-                    <div class="container col-md-4 col-xs-12">
-                        <img class="img fil1" src="public/img/pictures.jpg"><br>
-                        <strong>SATURATE</strong>
-                    </div>
-    
-                    <div class="container col-md-4">
-                        <img class="img fil2" src="public/img/pictures.jpg"><br>
-                        <strong>CONTRAST</strong>
-                    </div><!-- End off col-md-3 -->
-    
-                    <div class="container col-md-4">
-                        <img class="img fil3" src="public/img/pictures.jpg"><br>
-                        <strong>BRIGHTNESS</strong>
-                    </div><!-- End off col-md-3 -->
-                    <br>
+        <nav>
+            <div class="container__nav">
+                <div class="title container__items__nav">
+                    <h1 class="gfont">PHOTOGRAFIC FILTERS</h1>
                 </div>
-            </div>
-    
-            <div class="row-cstm">
-                <div class="widget_area">
-                    <div class="container col-md-4">
-                        <img class="img fil4" src="public/img/pictures.jpg"><br>
-                        <strong>GRAYSCALE</strong>
-                    </div><!-- End off col-md-3 -->
-    
-                    <div class="container col-md-4">
-                        <img class="img fil5" src="public/img/pictures.jpg"><br>
-                        <strong>OPACITY</strong>
-                    </div><!-- End off col-md-3 -->
-    
-                    <div class="container col-md-4">
-                        <img class="img fil6" src="public/img/pictures.jpg"><br>
-                        <strong>HUE - ROTATE</strong>
-                    </div><!-- End off col-md-3 -->
-                    <br>
-                </div>
-            </div>
-    
-            <div class="row-cstm">
-                <div class="widget_area">
-                    <div class="container col-md-4">
-                        <img class="img fil7" src="public/img/pictures.jpg"><br>
-                        <strong>INVERT</strong>
-                    </div><!-- End off col-md-3 -->
-    
-                    <div class="container col-md-4">
-                        <img class="img fil8" src="public/img/pictures.jpg"><br>
-                        <strong>SEPIA</strong>
-                    </div><!-- End off col-md-3 -->
-    
-                    <div class="container col-md-4">
-                        <img class="img fil9" src="public/img/pictures.jpg"><br>
-                        <strong>BLUR</strong>
-                    </div>
-                    <br>
-                </div>
-            </div>
-    
-            <div class="row-cstm">
-                <div class="widget_area">
-                    <div class="container col-md-4">
-                        <img class="img comb1" src="public/img/pictures.jpg"><br>
-                        <strong>BLUR - CONTRAST</strong>
-                    </div><!-- End off col-md-3 -->
-    
-                    <div class="container col-md-4">
-                        <img class="img comb2" src="public/img/pictures.jpg"><br>
-                        <strong>BLUR - GRAYSCALE</strong>
-                    </div><!-- End off col-md-3 -->
-    
-                    <div class="container col-md-4">
-                        <img class="img comb3" src="public/img/pictures.jpg"><br>
-                        <strong>SEPIA - HUE-ROTATE</strong>
-                    </div><!-- End off col-md-3 -->
-                    <br>
-                </div>
-            </div>
-    
-            <div class="row-cstm">
-                <div class="widget_area">
-                    <div class="container col-md-4">
-                        <img class="img" src="public/img/pictures.jpg"><br>
-                        <strong>NORMAL</strong>
-                    </div><!-- End off col-md-3 -->
-                </div>
-            </div>
-        </div>
 
-        <div class="footer">
-            <span class="fa fa-copyright"></span> Diego Chavez | 2021 <br/>
-            <a href="https://wwww.github.com/Diego-18" ><span class="fa fa-github github-log"></span></a>
-            <a href="https://twitter.com/djchvz18" ><span class="fa fa-twitter twitter-log"></span></a>
-            <a href="https://instagram.com/djchvz18" ><span class="fa fa-instagram instagram-log"></span></a>
+                <div class="container__items__nav">
+                    <p class="nav__description">Navegadores Compatibles:</p>
+                    <img src="img/chrome.svg" alt="brow1" class="img__nav">
+                    <img src="img/firefox.svg" alt="brow2" class="img__nav">
+                    <img src="img/opera.svg" alt="brow3" class="img__nav">
+                    <img src="img/safari.svg" alt="brow4" class="img__nav">
+                </div>
+
+                <div class="code container__items__nav">
+                    <a href="https://github.com/Diego-18/" target="_blank">
+                        <img src="img/github-logo.svg" alt="Code" class="img__nav img__responsive">
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container__ppal">
+            <div class="container cont__demo">
+                <div id="item__origin">
+                    <img class="img__origin" src="public/img/pictures.jpg">
+                </div>
+
+                <div class="item__demo">
+                    <img id="img__demo" src="public/img/pictures.jpg">
+                </div>
+            </div>
+
+            <div class="container cont__items">
+                <button class="items__option" id="opcion" onclick="fjOption('saturate');">Saturate</button>
+                <button class="items__option" id="opcion" onclick="fjOption('contrast');">Contrast</button>
+                <button class="items__option" id="opcion" onclick="fjOption('brightness');">Brightness</button>
+                <button class="items__option" id="opcion" onclick="fjOption('grayScale');">Gray Scale</button>
+                <button class="items__option" id="opcion" onclick="fjOption('opacity');">Opacity</button>
+                <button class="items__option" id="opcion" onclick="fjOption('hueRotate');">Hue Rotate</button>
+                <button class="items__option" id="opcion" onclick="fjOption('invert');">Invert</button>
+                <button class="items__option" id="opcion" onclick="fjOption('sepia');">Sepia</button>
+                <button class="items__option" id="opcion" onclick="fjOption('blur');">Blur</button>
+            </div>
         </div>
 	</body>
+    <script src="main.js"></script>
 </html>
