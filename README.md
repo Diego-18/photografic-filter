@@ -1,13 +1,24 @@
 # PHOTOGRAFIC FILTERS
-Photo Filters created with css3
+Photographic Filters with css is a library that allows you to quickly and easily use the filters commonly used by professional photographers on images useful for your website. 
 
 ## Use
 
-  Places in the label the name of the class.
+  Place in the class tag of the image the following effects below and you will have the effect.
+  
+  - saturate
+  - contrast
+  - brightness
+  - grayScale
+  - opacity
+  - hueRotate
+  - invert
+  - sepia
+  - blur
+  
 
 ## Example
 
-<pre>class="fil1"</pre>
+<pre> class="saturate" </pre>
 
 ## Browsers support
 
